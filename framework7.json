@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/aleksej/dev/framework7-capacitor-test",
+  "type": [
+    "capacitor"
+  ],
+  "name": "My App Football 7",
+  "framework": "svelte",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

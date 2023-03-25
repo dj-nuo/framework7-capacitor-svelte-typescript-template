@@ -1,0 +1,30 @@
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function ArrowUturnDownCircleFill(props) {
+  var children = props.children,
+      attrs = _objectWithoutPropertiesLoose(props, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement("svg", _extends({
+    fill: "currentcolor",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 56 56"
+  }, attrs), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0547 51.9063 28 C 51.9063 14.9219 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9219 4.0937 28 C 4.0937 41.0547 14.9218 51.9063 27.9999 51.9063 Z M 30.4374 15.1797 C 36.5312 15.1797 40.3514 19.6328 40.3514 25.5390 L 40.3514 29.0312 C 40.3514 30.1563 39.6718 30.9766 38.5234 30.9766 C 37.3514 30.9766 36.7187 30.1563 36.7187 29.0781 L 36.7187 25.5390 C 36.7187 21.6953 34.2343 18.9063 30.2265 18.9063 C 26.3124 18.9063 24.1796 21.7890 24.1796 25.5156 L 24.1796 33.0859 L 24.0858 36.1094 L 25.1874 34.6328 L 28.2109 31.4453 C 28.5624 31.0703 29.0546 30.8828 29.5234 30.8828 C 30.5780 30.8828 31.3983 31.6797 31.3983 32.6875 C 31.3983 33.2266 31.2109 33.6250 30.8593 33.9766 L 23.9218 40.7734 C 23.4999 41.1719 23.0077 41.4531 22.3983 41.4531 C 21.7890 41.4531 21.2733 41.1719 20.8280 40.7734 L 14.0077 34 C 13.6327 33.6484 13.4452 33.2734 13.4452 32.7109 C 13.4452 31.6797 14.2655 30.8828 15.2968 30.8828 C 15.8124 30.8828 16.3046 31.1172 16.6093 31.4687 L 19.1640 34.1172 L 20.7343 36.1094 L 20.6405 33.0859 L 20.6405 25.5156 C 20.6405 19.6094 24.3436 15.1797 30.4374 15.1797 Z"
+  }));
+}
+
+var _default = ArrowUturnDownCircleFill;
+exports["default"] = _default;

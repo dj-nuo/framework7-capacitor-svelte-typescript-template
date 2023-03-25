@@ -1,0 +1,30 @@
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function MultiplyCircleFill(props) {
+  var children = props.children,
+      attrs = _objectWithoutPropertiesLoose(props, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement("svg", _extends({
+    fill: "currentcolor",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 56 56"
+  }, attrs), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 19.5858 38.4063 C 18.4843 38.4063 17.5936 37.5156 17.5936 36.4141 C 17.5936 35.8750 17.8280 35.4063 18.2030 35.0547 L 25.1874 28.0234 L 18.2030 20.9922 C 17.8280 20.6641 17.5936 20.1719 17.5936 19.6328 C 17.5936 18.5547 18.4843 17.6875 19.5858 17.6875 C 20.1249 17.6875 20.5936 17.8984 20.9452 18.2734 L 27.9765 25.2812 L 35.0546 18.25 C 35.4530 17.8281 35.8749 17.6406 36.3905 17.6406 C 37.4921 17.6406 38.3827 18.5312 38.3827 19.6094 C 38.3827 20.1484 38.1952 20.5937 37.7968 20.9688 L 30.7655 28.0234 L 37.7733 35.0078 C 38.1249 35.3828 38.3593 35.8516 38.3593 36.4141 C 38.3593 37.5156 37.4687 38.4063 36.3671 38.4063 C 35.8046 38.4063 35.3358 38.1719 34.9843 37.8203 L 27.9765 30.7890 L 20.9921 37.8203 C 20.6405 38.1953 20.1249 38.4063 19.5858 38.4063 Z"
+  }));
+}
+
+var _default = MultiplyCircleFill;
+exports["default"] = _default;

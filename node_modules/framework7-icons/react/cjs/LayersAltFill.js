@@ -1,0 +1,32 @@
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function LayersAltFill(props) {
+  var children = props.children,
+      attrs = _objectWithoutPropertiesLoose(props, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement("svg", _extends({
+    fill: "currentcolor",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 56 56"
+  }, attrs), /*#__PURE__*/_react["default"].createElement("path", {
+    fillRule: "evenodd",
+    d: "M39.2584969,29.5990283 L43.5130807,31.4030317 C43.7706189,31.5639931 43.988118,31.7814922 44.1490794,32.0390304 C44.7345001,32.9757035 44.4497537,34.2096042 43.5130807,34.7950249 L28.5866625,41.1240363 C24.6954191,42.5560634 19.7579314,42.5560634 15.866688,41.1240363 L0.940269829,34.7950249 C0.682731565,34.6340635 0.465232516,34.4165644 0.304271101,34.1590262 C-0.281149563,33.2223531 0.00359676691,31.9884524 0.940269829,31.4030317 L5.1948536,29.5990283 L15.866688,34.1240363 C19.7579314,35.5560634 24.6954191,35.5560634 28.5866625,34.1240363 L39.2584969,29.5990283 Z M39.2584969,17.5990283 L43.5130807,19.4030317 C43.7706189,19.5639931 43.988118,19.7814922 44.1490794,20.0390304 C44.7345001,20.9757035 44.4497537,22.2096042 43.5130807,22.7950249 L28.5866625,29.1240363 C24.6954191,30.5560634 19.7579314,30.5560634 15.866688,29.1240363 L0.940269829,22.7950249 C0.682731565,22.6340635 0.465232516,22.4165644 0.304271101,22.1590262 C-0.281149563,21.2223531 0.00359676691,19.9884524 0.940269829,19.4030317 L5.1948536,17.5990283 L15.866688,22.1240363 C19.7579314,23.5560634 24.6954191,23.5560634 28.5866625,22.1240363 L39.2584969,17.5990283 Z M28.5866625,1.07402035 L43.5130807,7.40303169 C43.7706189,7.56399311 43.988118,7.78149216 44.1490794,8.03903042 C44.7345001,8.97570348 44.4497537,10.2096042 43.5130807,10.7950249 L28.5866625,17.1240363 C24.6954191,18.5560634 19.7579314,18.5560634 15.866688,17.1240363 L0.940269829,10.7950249 C0.682731565,10.6340635 0.465232516,10.4165644 0.304271101,10.1590262 C-0.281149563,9.22235312 0.00359676691,7.98845236 0.940269829,7.40303169 L15.866688,1.07402035 C19.7579314,-0.358006784 24.6954191,-0.358006784 28.5866625,1.07402035 Z",
+    transform: "translate(5.773 6.901)"
+  }));
+}
+
+var _default = LayersAltFill;
+exports["default"] = _default;

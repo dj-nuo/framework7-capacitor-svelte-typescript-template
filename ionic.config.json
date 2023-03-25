@@ -1,0 +1,7 @@
+{
+  "name": "football-sveltekit-supabase-capacitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

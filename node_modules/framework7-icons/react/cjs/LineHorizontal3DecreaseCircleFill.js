@@ -1,0 +1,30 @@
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function LineHorizontal3DecreaseCircleFill(props) {
+  var children = props.children,
+      attrs = _objectWithoutPropertiesLoose(props, ["children"]);
+
+  return /*#__PURE__*/_react["default"].createElement("svg", _extends({
+    fill: "currentcolor",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 56 56"
+  }, attrs), /*#__PURE__*/_react["default"].createElement("path", {
+    d: "M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 15.2499 23.5 C 14.2187 23.5 13.4687 22.8437 13.4687 21.8594 C 13.4687 20.8516 14.2187 20.1953 15.2499 20.1953 L 40.8202 20.1953 C 41.8514 20.1953 42.5780 20.8516 42.5780 21.8594 C 42.5780 22.8437 41.8514 23.5 40.8202 23.5 Z M 18.7187 31.2578 C 17.6874 31.2578 16.9609 30.6016 16.9609 29.6172 C 16.9609 28.6094 17.6874 27.9531 18.7187 27.9531 L 37.3514 27.9531 C 38.3827 27.9531 39.1093 28.6094 39.1093 29.6172 C 39.1093 30.6016 38.3827 31.2578 37.3514 31.2578 Z M 22.3514 39.0390 C 21.3202 39.0390 20.5702 38.3828 20.5702 37.3984 C 20.5702 36.3906 21.3202 35.7344 22.3514 35.7344 L 33.7187 35.7344 C 34.7499 35.7344 35.4999 36.3906 35.4999 37.3984 C 35.4999 38.3828 34.7499 39.0390 33.7187 39.0390 Z"
+  }));
+}
+
+var _default = LineHorizontal3DecreaseCircleFill;
+exports["default"] = _default;
